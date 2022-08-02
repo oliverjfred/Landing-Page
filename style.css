@@ -1,0 +1,244 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 5% 0% 5%;
+    height: 15vh;
+    background-color: #FAFAFA;
+    cursor: pointer;
+}
+ul{
+    display: inline-flex;
+    gap: 10%;
+    width: 150%;
+    list-style: none;
+}
+.gift_finder{
+    border: ridge #F7941E;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+    color: #F7941E;
+    width: 155%;
+    height: 38px;
+    cursor: pointer;
+}
+.first_section{
+    background-color: #F1F1F2;
+    display: flex;
+}
+.first_section_item{
+    margin: 8% 10% 0% 15%;
+}
+.second_section_text{
+    text-align: center;
+}
+.first_section h1{
+    text-align: start;
+    width: 90%;
+    font-size: 300%;
+}
+.first_section p{
+    text-align: start;
+    font-size: large;
+}
+.couple1 img{
+    width: 628px;
+    height: 100%;
+}
+.find_gift_now{
+    width: 40%;
+    height: 40px;
+    font-size: large;
+    background-color: #F7941E;
+    color: #F1F1F2;
+    border-radius: 5px;
+    border: transparent;
+}
+.second_section{
+    background-color: #F1F1F2;
+}
+.second_section_item{
+    display: flex;
+    gap: 10%;
+}
+.second_section_text{
+    margin-top: 8%;
+    text-align: start;
+    line-height: 50px;
+    font-size: 20px;
+}
+.second_section_text p{
+    line-height: 35px;
+}
+.learn_more{
+    border: ridge #F7941E;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+    color: #F7941E;
+    width: 40%;
+    height: 40px;
+    cursor: pointer;
+}
+.third_section{
+    background-color: #FFFFFF;
+    height: 100vh;
+}
+.third_section_text{
+    margin-top: 5%;
+    text-align: center;
+    line-height: 80px;
+    height: 27vh;
+}
+.third_section_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2%;
+}
+.third_section_img img{
+    width: 235px;
+}
+.sub_section1{
+    padding-left: 4%;
+    background-color: #FFFFFF;
+    height: 25vh;
+    line-height: 80px;
+    text-align: left;
+    box-shadow: 1.5px 0px 10px 1.5px whitesmoke;
+}
+.sub_section2{
+    padding-left: 4%;
+    background-color: #FAFAFA;
+    height: 25vh;
+    line-height: 80px;
+    text-align: left;
+    box-shadow: 1.5px 0px 10px 1.5px #FAFAFA;
+}
+.seemore{
+    border: none;
+}
+.fourth_section{
+    background-color: #F7941E;
+    height: 40vh;
+}
+.fourth_section_item{
+    padding-top: 7%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fourth_section_item p{
+    font-size: xx-large;
+}
+.find_gift{
+    width: 155px;
+    height: 40px;
+    color: #FFFFFF;
+    background-color: #231F20;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.how_it_works{
+    width: 155px;
+    height: 40px;
+    background-color: #F7941E;
+    color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.last_section{
+    background-color: #FFFFFF;
+}
+.last_section_text{
+    padding-top: 5%;
+    height: 30vh;
+    text-align: center;
+    line-height: 80px;
+}
+.last_section_items{
+    margin: auto 10%;
+    display: flex;
+}
+.last_section_items img{
+    height: 100%;
+}
+.john_doe{
+    background-color: #231F20;
+    padding: 5% 0% 0% 8%;
+    width: 70%;
+    color: #FFFFFF;
+    line-height: 80px;
+}
+.john_doe h1{
+    font-size: 300%;
+    line-height: normal;
+}
+.readmore{
+    border: none;
+    font-size: medium;
+    background: transparent;
+    color: #FFFFFF;
+}
+.joint_section{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    height: 70vh;
+}
+.database_txt{
+    width: 35%;
+    height: 40vh;
+    padding: 3% 0% 0% 5%;
+    box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.05); 
+    line-height: 50px;
+}
+.artificial_txt{
+    line-height: 50px;
+    padding: 3% 0% 0% 5%; 
+}
+.read_more{
+    border: none;
+    font-size: medium;
+    background: transparent;
+}
+.artificial_txt h1, p, .database_txt h1, p{
+    line-height: normal;
+}
+footer{
+    background-color: #FAFAFA;
+    line-height: 40vh;
+}
+ol{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+    gap: 8%;
+    height: 35vh;
+}
+.border{
+    margin: 0% auto;
+    border: 1px solid #000000;
+    width: 68%;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+.privacy{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+.privacy img{
+    width: 150px;
+}
